@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ( { title, description, github } ) => {
           <p>{description}</p>
         </div>
         <div className="">
-          <a href={github} target="_blank">github</a>
+          <a href={github}>github</a>
         </div>
       </div>
     </div>
