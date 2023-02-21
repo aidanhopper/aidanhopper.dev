@@ -1,14 +1,28 @@
+import Card from "./card"
+
 export default function Portfolio() {
   return (
-    <div className="flex w-screen h-screen bg-[#d8dee9] items-center justify-center">
-      <div className="grid grid-cols-2 gap-8">
-        <div className="bg-[#eceff4] transition-all hover:-translate-y-2 hover:-translate-x-2 px-24 py-40 rounded-3xl shadow-lg">
-          asdf
+    <div className="absolute bg-[#d8dee9] h-screen w-screen text-[#4c566a] flex items-center justify-center ">
+      <div className="grid grid-rows-3 items-center justify-center">
+        <h1 className="row-span-full items-center justify-center text-6xl font-bold">
+          My projects.
+        </h1>
+        <div className="grid grid-cols-3 gap-8 text-[#4c566a]">
+          <Card title="Chess"
+            description="Chess game written in Python that uses Pygame for a graphical front end."
+            github="https://github.com/aidanhopper/chess" />
+          <Card title="Kahoot clone"
+            description="Created a clone of kahoot for the crimson code 2023 hackathon."
+            github="https://github.com/aidanhopper/chess" />
+          <Card title="Chess"
+            description="Chess game written in Python that uses Pygame for a graphical front end."
+            github="https://github.com/aidanhopper/chess" />
+          <Card title="Kahoot clone"
+            description="Created a clone of kahoot for the crimson code 2023 hackathon."
+            github="https://github.com/aidanhopper/chess" />
         </div>
-        <div className="bg-[#eceff4] transition-all hover:-translate-y-2 hover:-translate-x-2 px-24 py-40 rounded-3xl shadow-lg">
-          asdf
-        </div>
+        <a href="#" className="flex items-center justify-center text-xl mt-8">See more.</a>
       </div>
     </div>
-  )    
+  )
 }

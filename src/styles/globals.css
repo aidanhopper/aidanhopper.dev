@@ -7,7 +7,7 @@
 }
 
 .navbar-container {
-  @apply container py-2 px-5 mx-0 min-w-full flex grid bg-[#eceff4];
+  @apply container py-2 px-5 mx-0 min-w-full bg-[#eceff4];
 }
 
 .navbar-btn {
