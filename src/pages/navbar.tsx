@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex sticky top-0 shadow-lg items-center justify-between flex-wrap bg-[#eceff4] p-2">
+    <nav className="flex sticky top-0 shadow-lg  items-center justify-between flex-wrap bg-[#eceff4] p-2">
       <div className="flex items-center flex-shrink-0 text-[#4c566a] mr-6 mx-10">
         <span className="font-bold text-xl tracking-tight ">aidanhopper.dev</span>
       </div>
