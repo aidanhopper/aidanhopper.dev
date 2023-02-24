@@ -8,9 +8,9 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ( { title, description, github } ) => {
   return (
-    <button className="bg-[#eceff4] transition-all flex hover:-translate-y-2 hover:-translate-x-2 rounded-3xl shadow-lg w-64 h-96">
+    <button className="bg-[#eceff4] transition-all flex hover:-translate-y-2 hover:-translate-x-2 rounded-3xl shadow-lg xl:w-64 xl:h-96">
       <div className="grid grid-rows-5 p-5">
-        <div className="text-3xl font-bold">
+        <div className="text-xl md:text-2xl lg:text-3xl font-bold">
           <h1>{title}</h1>
         </div>
         <div className="row-span-3 py-5">
